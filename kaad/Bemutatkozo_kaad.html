@@ -1,0 +1,147 @@
+
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Bemutatkozó oldal</title>
+
+    <style>
+        /* Az egész oldal */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            color: #222;
+        }
+
+        /* Fejléc */
+        header {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        /* Tartalom */
+        main {
+            width: 80%;
+            max-width: 900px;
+            margin: 30px auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px #cccccc;
+        }
+
+        h2 {
+            color: #2c3e50;
+        }
+
+        p {
+            font-size: 17px;
+            line-height: 1.6;
+        }
+
+        /* Bemutatkozó adatok */
+        .adatok {
+            margin-bottom: 25px;
+        }
+
+        .adatok p {
+            margin: 10px 0;
+        }
+
+        /* Kép és leírás */
+        .kedvenc-allat {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .kedvenc-allat img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .leiras {
+            font-style: italic;
+            color: #555;
+            margin-top: 10px;
+        }
+
+        /* Vissza link */
+        .vissza {
+            text-align: right;
+            margin-top: 40px;
+        }
+
+        .vissza a {
+            color: #2980b9;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .vissza a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Bemutatkozó oldal</h1>
+    </header>
+
+    <main>
+
+        <h2>Bemutatkozás</h2>
+
+        <div class="adatok">
+
+            <p>
+                <strong>Név:</strong>
+                <!-- Ide írd a vezetékneved és keresztneved -->
+            </p>
+
+            <p>
+                <strong>Hobby:</strong>
+                <!-- Ide írd a hobbidat -->
+            </p>
+
+            <p>
+                <strong>Kedvenc sport:</strong>
+                <!-- Ide írd a kedvenc sportodat -->
+            </p>
+
+        </div>
+
+        <div class="kedvenc-allat">
+
+            <h2>Kedvenc állatom</h2>
+
+            <!-- Ide helyezd a kedvenc állatod képét -->
+            <img src="kedvenc-allat.jpg"
+                 alt="A kedvenc állatom">
+
+            <p class="leiras">
+                <!-- Ide írd a kép alatti leírást -->
+            </p>
+
+        </div>
+
+        <div class="vissza">
+            <a href="index.html">Vissza a nyitóoldalra</a>
+        </div>
+
+    </main>
+
+</body>
+</html>
