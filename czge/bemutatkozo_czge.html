@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Üdvözlő oldal</title>
+    <title>Bemutatkozás</title>
     <style>
         body {
             margin: 0;
@@ -43,21 +43,6 @@
             line-height: 1.6;
         }
 
-        ul {
-            font-size: 17px;
-            line-height: 1.8;
-        }
-
-        a {
-            color: #2980b9;
-            text-decoration: none;
-            font-weight: bold;
-        }
-
-        a:hover {
-            text-decoration: underline;
-        }
-
         .kep {
             text-align: center;
             margin-top: 25px;
@@ -68,31 +53,43 @@
             height: auto;
             border-radius: 8px;
         }
+
+        .vissza {
+            text-align: right;
+            margin-top: 40px;
+        }
+
+        .vissza a {
+            color: #2980b9;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .vissza a:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
 
     <header>
-        <h1>Üdvözöljük a weboldalunkon!</h1>
+        <h1>Bemutatkozás</h1>
     </header>
 
     <main>
-        <h2>Tanulni valók:</h2>
-        <ul>
-            <li><a href="../kaad/OSI modell.html">OSI modell felépítése</a></li>
-            <li><a href="dhcp.html">DHCP</a></li>
-        </ul>
+        <p><strong>Név:</strong> Czimbó Gergő</p>
+        <p><strong>Hobby:</strong> Főzés</p>
+        <p><strong>Kedvenc sport:</strong> Tollaslabda</p>
 
-        <h2>A csapat tagjai:</h2>
-        <ul>
-            <li><a href="bemutatkozo_czge.html">Czimbó Gergő bemutatkozás</a></li>
-            <li><a href="tag2.html">Szudor Tamás bemutatkozás</a></li>
-            <li><a href="../kaad/Bemutatkozo_kaad.html">Karakas Ádám bemutatkozás</a></li>
-        </ul>
-
-        <h2>Rendszergazda:</h2>
+        <h2>Kedvenc állatom: Kutya</h2>
+        
         <div class="kep">
-            <img src="rendszergazda.jpg" alt="Rendszergazda munka közben">
+            <img src="tacsko.jpg" alt="Kedvenc állat">
+        </div>
+        <p>Ez a kedvenc állatom, mert ilyen kutyám van</p>
+
+        <div class="vissza">
+            <a href="index.html">Vissza a nyitóoldalra</a>
         </div>
     </main>
 
